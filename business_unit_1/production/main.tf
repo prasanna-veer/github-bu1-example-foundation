@@ -3,7 +3,6 @@ locals {
   environment   = "production"
 }
 
-
 resource "google_storage_bucket" "bu1_demo" {
   name          = "storage_demo"
   location      = "europe-west2"
