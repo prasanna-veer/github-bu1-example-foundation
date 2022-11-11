@@ -7,6 +7,7 @@ locals {
 resource "google_storage_bucket" "bu1_demo" {
   name          = "storage_demo"
   location      = "europe-west2"
+  project       = "abd-bu1-p-sample-base-8b3b"
   force_destroy = true
   storage_class = "standard"
   uniform_bucket_level_access = true
